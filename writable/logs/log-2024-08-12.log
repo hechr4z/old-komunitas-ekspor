@@ -1,0 +1,316 @@
+INFO - 2024-08-12 06:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:56:03 --> CSRF token verified.
+ERROR - 2024-08-12 06:56:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'u1658729_member...', 3306, '', 0)
+#1 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\app\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#8 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asyam\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\app\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#7 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asyam\\...')
+#11 {main}
+CRITICAL - 2024-08-12 06:56:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->process()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\public\\index.php')
+INFO - 2024-08-12 06:56:20 --> CSRF token verified.
+ERROR - 2024-08-12 06:56:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'u1658729_member...', 3306, '', 0)
+#1 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\app\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#8 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asyam\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\app\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#7 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asyam\\...')
+#11 {main}
+CRITICAL - 2024-08-12 06:56:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->process()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\public\\index.php')
+INFO - 2024-08-12 06:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:56:31 --> CSRF token verified.
+ERROR - 2024-08-12 06:56:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'u1658729_member...', 3306, '', 0)
+#1 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\app\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#8 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asyam\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\app\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#7 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\asyam\OneDrive\Documents\GitHub\Pribadi\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asyam\\...')
+#11 {main}
+CRITICAL - 2024-08-12 06:56:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->process()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\public\\index.php')
+INFO - 2024-08-12 06:56:56 --> CSRF token verified.
+INFO - 2024-08-12 06:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:03:05 --> CSRF token verified.
+INFO - 2024-08-12 07:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:03:19 --> CSRF token verified.
+INFO - 2024-08-12 07:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-12 07:24:31 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH\Views\admin\layout\navbar.php on line 76.
+ 1 APPPATH\Views\admin\layout\navbar.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$uri', 'C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\app\\Views\\admin\\layout\\navbar.php', 76)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\app\\Views\\admin\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('admin/layout/navbar', null, true)
+ 5 APPPATH\Views\admin\layout\header.php(36): CodeIgniter\View\View->include('admin/layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\app\\Views\\admin\\layout\\header.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('admin/layout/header', null, true)
+ 9 APPPATH\Views\admin\template\template.php(36): CodeIgniter\View\View->include('admin/layout/header')
+10 SYSTEMPATH\View\View.php(224): include('C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\app\\Views\\admin\\template\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('admin/template/template', [], true)
+13 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/index', [], true)
+14 APPPATH\Controllers\admin\Member.php(43): view('admin/member/index', [...])
+15 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+16 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+17 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\public\\index.php')
+INFO - 2024-08-12 07:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-12 07:30:08 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH\Views\admin\layout\navbar.php on line 79.
+ 1 APPPATH\Views\admin\layout\navbar.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$uri', 'C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\app\\Views\\admin\\layout\\navbar.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\app\\Views\\admin\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('admin/layout/navbar', null, true)
+ 5 APPPATH\Views\admin\layout\header.php(36): CodeIgniter\View\View->include('admin/layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\app\\Views\\admin\\layout\\header.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('admin/layout/header', null, true)
+ 9 APPPATH\Views\admin\template\template.php(36): CodeIgniter\View\View->include('admin/layout/header')
+10 SYSTEMPATH\View\View.php(224): include('C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\app\\Views\\admin\\template\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('admin/template/template', [], true)
+13 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/kategori_videos/index', [], true)
+14 APPPATH\Controllers\admin\KategoriVideo.php(25): view('admin/kategori_videos/index', [...])
+15 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\KategoriVideo->index()
+16 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\KategoriVideo))
+17 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asyam\\OneDrive\\Documents\\GitHub\\Pribadi\\public\\index.php')
+INFO - 2024-08-12 08:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:29 --> CSRF token verified.
+INFO - 2024-08-12 08:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:06 --> CSRF token verified.
+INFO - 2024-08-12 08:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:31 --> CSRF token verified.
+INFO - 2024-08-12 08:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 08:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 11:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 11:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

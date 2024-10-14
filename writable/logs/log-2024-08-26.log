@@ -1,0 +1,451 @@
+INFO - 2024-08-26 02:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 02:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 02:22:44 --> CSRF token verified.
+INFO - 2024-08-26 02:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 02:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 02:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 02:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 02:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 02:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 03:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 03:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 03:29:26 --> Undefined variable $founders
+in APPPATH\Views\admin\founder\index.php on line 27.
+ 1 APPPATH\Views\admin\founder\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founders', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(24): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 03:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 03:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 03:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 03:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 03:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 03:50:21 --> Call to undefined method App\Models\FounderModels::getAllFounders
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\admin\Founder.php(24): CodeIgniter\Model->__call('getAllFounders', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 03:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 03:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:01:39 --> CSRF token verified.
+INFO - 2024-08-26 04:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:05:39 --> CSRF token verified.
+INFO - 2024-08-26 04:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:22:55 --> CSRF token verified.
+INFO - 2024-08-26 04:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:24:14 --> CSRF token verified.
+INFO - 2024-08-26 04:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:26:08 --> CSRF token verified.
+INFO - 2024-08-26 04:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:28:04 --> Undefined variable $video
+in APPPATH\Views\admin\founder\index.php on line 33.
+ 1 APPPATH\Views\admin\founder\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:28:41 --> CSRF token verified.
+INFO - 2024-08-26 04:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:29:42 --> CSRF token verified.
+INFO - 2024-08-26 04:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:29:42 --> Undefined property: stdClass::$deskripsi_video
+in APPPATH\Views\admin\founder\index.php on line 36.
+ 1 APPPATH\Views\admin\founder\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$deskripsi_video', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:33:42 --> Undefined property: stdClass::$id_founder
+in APPPATH\Views\admin\founder\index.php on line 38.
+ 1 APPPATH\Views\admin\founder\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:33:44 --> Undefined property: stdClass::$id_founder
+in APPPATH\Views\admin\founder\index.php on line 38.
+ 1 APPPATH\Views\admin\founder\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:33:45 --> Undefined property: stdClass::$id_founder
+in APPPATH\Views\admin\founder\index.php on line 38.
+ 1 APPPATH\Views\admin\founder\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:36:12 --> Undefined property: stdClass::$id_founder
+in APPPATH\Views\admin\founder\index.php on line 38.
+ 1 APPPATH\Views\admin\founder\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:36:15 --> CSRF token verified.
+INFO - 2024-08-26 04:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:36:15 --> Undefined property: stdClass::$id_founder
+in APPPATH\Views\admin\founder\index.php on line 38.
+ 1 APPPATH\Views\admin\founder\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:36:19 --> Undefined property: stdClass::$id_founder
+in APPPATH\Views\admin\founder\index.php on line 38.
+ 1 APPPATH\Views\admin\founder\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:36:20 --> Undefined property: stdClass::$id_founder
+in APPPATH\Views\admin\founder\index.php on line 38.
+ 1 APPPATH\Views\admin\founder\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:36:22 --> Undefined property: stdClass::$id_founder
+in APPPATH\Views\admin\founder\index.php on line 38.
+ 1 APPPATH\Views\admin\founder\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:36:26 --> Undefined property: stdClass::$id_founder
+in APPPATH\Views\admin\founder\index.php on line 38.
+ 1 APPPATH\Views\admin\founder\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:39:21 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(78): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:41:46 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(78): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:41:47 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(78): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:41:48 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(78): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:41:49 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(78): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:42:07 --> CSRF token verified.
+INFO - 2024-08-26 04:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:42:30 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(78): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:45:34 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(78): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:45:35 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(78): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:53:36 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(78): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:53:37 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(78): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:53:38 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(78): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 04:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:53:53 --> CSRF token verified.
+INFO - 2024-08-26 04:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 04:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 04:58:59 --> Undefined variable $founders
+in APPPATH\Views\admin\founder\index.php on line 27.
+ 1 APPPATH\Views\admin\founder\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founders', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/index', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(25): view('admin/founder/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 05:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:02:38 --> CSRF token verified.
+INFO - 2024-08-26 05:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 05:02:47 --> unlink(uploads/foto_founder/): Is a directory
+in APPPATH\Controllers\admin\Founder.php on line 151.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/foto_founder/): Is a directory', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Controllers\\admin\\Founder.php', 151)
+ 2 APPPATH\Controllers\admin\Founder.php(151): unlink('uploads/foto_founder/')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->delete('4')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 05:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:06:42 --> CSRF token verified.
+INFO - 2024-08-26 05:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-26 05:06:45 --> Undefined variable $founder
+in APPPATH\Views\admin\founder\edit.php on line 12.
+ 1 APPPATH\Views\admin\founder\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $founder', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\founder\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/founder/edit', [], true)
+ 5 APPPATH\Controllers\admin\Founder.php(92): view('admin/founder/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->edit('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 05:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:08:17 --> CSRF token verified.
+CRITICAL - 2024-08-26 05:08:17 --> Call to a member function isValid() on null
+in APPPATH\Controllers\admin\Founder.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_edit('7')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-26 05:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:09:44 --> CSRF token verified.
+INFO - 2024-08-26 05:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:09:54 --> CSRF token verified.
+INFO - 2024-08-26 05:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:10:13 --> CSRF token verified.
+INFO - 2024-08-26 05:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:12:16 --> CSRF token verified.
+INFO - 2024-08-26 05:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-26 05:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

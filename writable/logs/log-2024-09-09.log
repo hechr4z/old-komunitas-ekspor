@@ -1,0 +1,77 @@
+INFO - 2024-09-09 11:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 11:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 11:04:53 --> CSRF token verified.
+INFO - 2024-09-09 11:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 11:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 11:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 11:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 11:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 13:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-09 13:59:49 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webjago' in C:\laragon\www\PROJECT\JagoDigital\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\PROJECT\JagoDigital\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'webjago', 3306, '', 0)
+#1 C:\laragon\www\PROJECT\JagoDigital\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\PROJECT\JagoDigital\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\PROJECT\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\PROJECT\JagoDigital\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\PROJECT\JagoDigital\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\PROJECT\JagoDigital\app\Controllers\NewUser\BaseController.php(69): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\PROJECT\JagoDigital\system\CodeIgniter.php(904): App\Controllers\NewUser\BaseController->__construct()
+#8 C:\laragon\www\PROJECT\JagoDigital\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#9 C:\laragon\www\PROJECT\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\PROJECT\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\PROJECT\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webjago' in C:\laragon\www\PROJECT\JagoDigital\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\PROJECT\JagoDigital\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\PROJECT\JagoDigital\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\PROJECT\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\PROJECT\JagoDigital\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\PROJECT\JagoDigital\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\laragon\www\PROJECT\JagoDigital\app\Controllers\NewUser\BaseController.php(69): CodeIgniter\BaseModel->first()
+#6 C:\laragon\www\PROJECT\JagoDigital\system\CodeIgniter.php(904): App\Controllers\NewUser\BaseController->__construct()
+#7 C:\laragon\www\PROJECT\JagoDigital\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 C:\laragon\www\PROJECT\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\PROJECT\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\PROJECT\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-09-09 13:59:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webjago'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_tentang`
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\NewUser\BaseController.php(69): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\NewUser\BaseController->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\PROJECT\\JagoDigital\\public\\index.php')
+INFO - 2024-09-09 14:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:02:10 --> CSRF token verified.
+INFO - 2024-09-09 14:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:02:18 --> CSRF token verified.
+INFO - 2024-09-09 14:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:03:08 --> CSRF token verified.
+INFO - 2024-09-09 14:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:03:30 --> CSRF token verified.
+INFO - 2024-09-09 14:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 14:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

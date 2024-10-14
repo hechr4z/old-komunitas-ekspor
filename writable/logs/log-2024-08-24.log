@@ -1,0 +1,488 @@
+ERROR - 2024-08-24 02:50:46 --> mysqli_sql_exception: Table 'tb_aktivitas' already exists in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-020739_TbAktivitas.php(45): CodeIgniter\Database\Forge->createTable('tb_aktivitas')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTbAktivitasTable->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 02:53:27 --> mysqli_sql_exception: Table 'tb_aktivitas' already exists in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-020739_TbAktivitas.php(45): CodeIgniter\Database\Forge->createTable('tb_aktivitas')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTbAktivitasTable->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 02:54:37 --> mysqli_sql_exception: Table 'tb_aktivitas' already exists in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-020739_TbAktivitas.php(45): CodeIgniter\Database\Forge->createTable('tb_aktivitas')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTbAktivitasTable->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-08-24 02:55:40 --> mysqli_sql_exception: Table 'tb_dpc' already exists in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-023608_TbDpc.php(37): CodeIgniter\Database\Forge->createTable('tb_dpc')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTbDpcTable->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-08-24 02:57:36 --> mysqli_sql_exception: Table 'tb_slider' already exists in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-023932_TbSlider.php(27): CodeIgniter\Database\Forge->createTable('tb_slider')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTbSliderTable->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-08-24 02:58:42 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-024839_TbArtikel.php(62): CodeIgniter\Database\Forge->createTable('tb_artikel')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTbArtikelTable->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-08-24 03:01:27 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-024839_TbArtikel.php(62): CodeIgniter\Database\Forge->createTable('tb_artikel')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTbArtikelTable->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-08-24 03:01:33 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-024839_TbArtikel.php(62): CodeIgniter\Database\Forge->createTable('tb_artikel')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTbArtikelTable->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 03:23:36 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-024839_TbArtikel.php(61): CodeIgniter\Database\Forge->createTable('tb_artikel')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTbArtikelTable->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 03:24:34 --> mysqli_sql_exception: Invalid default value for 'created_at' in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-024839_TbArtikel.php(56): CodeIgniter\Database\Forge->createTable('tb_artikel')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTbArtikelTable->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 03:27:10 --> mysqli_sql_exception: Invalid default value for 'created_at' in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-024839_TbArtikel.php(67): CodeIgniter\Database\Forge->createTable('tb_artikel')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\TbArtikel->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 03:28:46 --> mysqli_sql_exception: Invalid default value for 'created_at' in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\Xampp\htdocs\JagoDigital\app\Database\Migrations\2024-08-24-024839_TbArtikel.php(62): CodeIgniter\Database\Forge->createTable('tb_artikel')
+#5 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(877): App\Database\Migrations\TbArtikel->up()
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2024-08-24 03:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:30:16 --> CSRF token verified.
+INFO - 2024-08-24 03:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-24 03:36:27 --> mysqli_sql_exception: Column count doesn't match value count at row 2 in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Xampp\htdocs\JagoDigital\app\Database\Seeds\TbMemberSeeder.php(46): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\Seeder.php(146): App\Database\Seeds\TbMemberSeeder->run()
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 03:37:18 --> mysqli_sql_exception: Column count doesn't match value count at row 2 in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Xampp\htdocs\JagoDigital\app\Database\Seeds\TbMemberSeeder.php(46): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\Seeder.php(146): App\Database\Seeds\TbMemberSeeder->run()
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 03:37:19 --> mysqli_sql_exception: Column count doesn't match value count at row 2 in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Xampp\htdocs\JagoDigital\app\Database\Seeds\TbMemberSeeder.php(46): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\Seeder.php(146): App\Database\Seeds\TbMemberSeeder->run()
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 03:37:19 --> mysqli_sql_exception: Column count doesn't match value count at row 2 in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Xampp\htdocs\JagoDigital\app\Database\Seeds\TbMemberSeeder.php(46): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\Seeder.php(146): App\Database\Seeds\TbMemberSeeder->run()
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 03:37:21 --> mysqli_sql_exception: Column count doesn't match value count at row 2 in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Xampp\htdocs\JagoDigital\app\Database\Seeds\TbMemberSeeder.php(46): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\Seeder.php(146): App\Database\Seeds\TbMemberSeeder->run()
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 03:37:33 --> mysqli_sql_exception: Column count doesn't match value count at row 2 in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Xampp\htdocs\JagoDigital\app\Database\Seeds\TbMemberSeeder.php(46): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\Seeder.php(146): App\Database\Seeds\TbMemberSeeder->run()
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 03:42:26 --> mysqli_sql_exception: Duplicate entry 'admin' for key 'username' in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Xampp\htdocs\JagoDigital\app\Database\Seeds\TbMemberSeeder.php(96): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\Seeder.php(146): App\Database\Seeds\TbMemberSeeder->run()
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2024-08-24 03:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:52:39 --> CSRF token verified.
+INFO - 2024-08-24 03:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:54:03 --> CSRF token verified.
+INFO - 2024-08-24 03:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 03:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-24 03:54:04 --> mysqli_sql_exception: Table 'u1658729_member_pribadi.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1645): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Dashboardctrl.php(51): CodeIgniter\Model->__call('countAll', Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Dashboardctrl->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dashboardctrl))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-08-24 03:54:04 --> Table 'u1658729_member_pribadi.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows` FROM `tb_dpc`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows` FROM `tb_dpc`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows` FROM `tb_dpc`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1645): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `tb_dpc`', null, false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+ 6 APPPATH\Controllers\admin\Dashboardctrl.php(51): CodeIgniter\Model->__call('countAll', [])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Dashboardctrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dashboardctrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+ERROR - 2024-08-24 04:07:59 --> mysqli_sql_exception: Duplicate entry 'admin' for key 'username' in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Xampp\htdocs\JagoDigital\app\Database\Seeds\TbMemberSeeder.php(96): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\Seeder.php(146): App\Database\Seeds\TbMemberSeeder->run()
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-24 04:09:17 --> mysqli_sql_exception: Duplicate entry 'admin' for key 'username' in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Xampp\htdocs\JagoDigital\app\Database\Seeds\TbMemberSeeder.php(96): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\Seeder.php(146): App\Database\Seeds\TbMemberSeeder->run()
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2024-08-24 04:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-24 04:12:55 --> mysqli_sql_exception: Table 'u1658729_member_pribadi.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1645): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Dashboardctrl.php(51): CodeIgniter\Model->__call('countAll', Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Dashboardctrl->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dashboardctrl))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-08-24 04:12:55 --> Table 'u1658729_member_pribadi.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows` FROM `tb_dpc`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows` FROM `tb_dpc`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows` FROM `tb_dpc`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1645): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `tb_dpc`', null, false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+ 6 APPPATH\Controllers\admin\Dashboardctrl.php(51): CodeIgniter\Model->__call('countAll', [])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Dashboardctrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dashboardctrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-08-24 04:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:40 --> CSRF token verified.
+INFO - 2024-08-24 04:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:40 --> CSRF token verified.
+INFO - 2024-08-24 04:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:44 --> CSRF token verified.
+INFO - 2024-08-24 04:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:21:02 --> CSRF token verified.
+INFO - 2024-08-24 04:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:22:07 --> CSRF token verified.
+INFO - 2024-08-24 04:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:22:38 --> CSRF token verified.
+INFO - 2024-08-24 04:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:24:40 --> CSRF token verified.
+INFO - 2024-08-24 04:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:26:37 --> CSRF token verified.
+INFO - 2024-08-24 04:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:27:55 --> CSRF token verified.
+INFO - 2024-08-24 04:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:29:42 --> CSRF token verified.
+INFO - 2024-08-24 04:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:34:35 --> CSRF token verified.
+INFO - 2024-08-24 04:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:34:57 --> CSRF token verified.
+INFO - 2024-08-24 04:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-24 04:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

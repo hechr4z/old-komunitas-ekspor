@@ -1,0 +1,231 @@
+INFO - 2023-10-11 02:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:03:09 --> CSRF token verified.
+INFO - 2023-10-11 02:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:07:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::pagination()
+in APPPATH/Models/DataBuyersModel.php on line 40.
+ 1 APPPATH/Controllers/user/DataBuyersctrl.php(42): App\Models\DataBuyersModel->getDataBuyers()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:08:48 --> Call to undefined method App\Models\DataBuyersModel::pagination
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/user/DataBuyersctrl.php(42): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:09:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH/Models/DataBuyersModel.php on line 40.
+ 1 APPPATH/Controllers/user/DataBuyersctrl.php(42): App\Models\DataBuyersModel->getDataBuyers()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:10:05 --> Undefined array key "data_buyers"
+in APPPATH/Views/user/data_buyers/index.php on line 29.
+ 1 APPPATH/Views/user/data_buyers/index.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/k6594502/public_html/CRM/crm/app/Views/user/data_buyers/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/user/DataBuyersctrl.php(49): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:10:27 --> Cannot use object of type stdClass as array
+in APPPATH/Views/user/data_buyers/index.php on line 32.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/user/DataBuyersctrl.php(49): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:11:50 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:12:00 --> CSRF token verified.
+INFO - 2023-10-11 02:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:24:02 --> Undefined variable $page
+in APPPATH/Controllers/user/DataBuyersctrl.php on line 39.
+ 1 APPPATH/Controllers/user/DataBuyersctrl.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:24:26 --> Call to a member function paginate() on null
+in APPPATH/Controllers/user/DataBuyersctrl.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:24:51 --> Call to a member function paginate() on array
+in APPPATH/Controllers/user/DataBuyersctrl.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:27:20 --> Call to a member function paginate() on array
+in APPPATH/Controllers/user/DataBuyersctrl.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:29:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH/Controllers/user/DataBuyersctrl.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:29:59 --> syntax error, unexpected token "}"
+in APPPATH/Models/DataBuyersModel.php on line 32.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/user/DataBuyersctrl.php(20): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\user\DataBuyersctrl->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:30:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/user/DataBuyersctrl.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 02:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:35:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/DataBuyersModel.php on line 73.
+ 1 APPPATH/Controllers/user/DataBuyersctrl.php(44): App\Models\DataBuyersModel->getDataBuyers()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 03:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 03:32:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/DataBuyersModel.php on line 73.
+ 1 APPPATH/Controllers/user/DataBuyersctrl.php(44): App\Models\DataBuyersModel->getDataBuyers()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 03:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 03:37:15 --> Call to undefined method CodeIgniter\Pager\Pager::setTotal()
+in APPPATH/Controllers/user/DataBuyersctrl.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 03:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 03:40:07 --> Undefined variable $pager
+in APPPATH/Views/user/data_buyers/index.php on line 45.
+ 1 APPPATH/Views/user/data_buyers/index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/k6594502/public_html/CRM/crm/app/Views/user/data_buyers/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/user/DataBuyersctrl.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 03:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 03:41:02 --> Undefined variable $menu
+in APPPATH/Views/user/layout/nav.php on line 19.
+ 1 APPPATH/Views/user/layout/nav.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/k6594502/public_html/CRM/crm/app/Views/user/layout/nav.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(452): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/user/template/template.php(37): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(224): include('/home/k6594502/public_html/CRM/crm/app/Views/user/template/template.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/user/DataBuyersctrl.php(59): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 03:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 04:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 04:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 04:16:33 --> Undefined variable $page
+in APPPATH/Controllers/user/DataBuyersctrl.php on line 33.
+ 1 APPPATH/Controllers/user/DataBuyersctrl.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 04:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 04:16:53 --> Attempt to read property "negara_buyers" on array
+in APPPATH/Views/user/data_buyers/index.php on line 32.
+ 1 APPPATH/Views/user/data_buyers/index.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/k6594502/public_html/CRM/crm/app/Views/user/data_buyers/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/user/DataBuyersctrl.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\DataBuyersctrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 04:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 04:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 04:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 04:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 04:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 04:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 04:47:12 --> Undefined property: stdClass::$tampil_menu
+in APPPATH/Views/admin/user/index.php on line 45.
+ 1 APPPATH/Views/admin/user/index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/k6594502/public_html/CRM/crm/app/Views/admin/user/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/admin/User.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-11 04:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 05:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

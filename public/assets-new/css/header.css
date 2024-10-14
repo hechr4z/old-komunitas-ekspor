@@ -1,0 +1,180 @@
+.nav-link {
+    margin-right: 5px;
+    padding: 8px 12px;
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+      margin-right: 0;
+      padding: 10px 15px;
+    }
+  }
+  
+
+  /* simpanan */
+
+  /* Features Section */
+.features-section {
+  background-color: #77287d;
+  color: #ffffff;
+}
+
+.features-section .title {
+  color: #933393;
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.features-section .feature-details {
+  margin-top: 50px;
+}
+
+.features-section .feature-details h1 {
+  margin-bottom: 3rem;
+  padding-top: 5rem;
+}
+
+.features-section .feature-details p {
+  margin-bottom: 20px;
+}
+
+.features-section hr {
+  width: 45%;
+  border: 1.5px solid #ffffff;
+}
+
+/* Card Customization */
+
+
+.profile-info h5 {
+  font-weight: bold;
+}
+
+.profile-info p {
+  color: gray;
+}
+
+/* Promo Section */
+.promo-section {
+  color: #393939;
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
+
+.promo-section h1 {
+  color: #933393;
+}
+
+.promo-section p {
+  margin: 1rem 0;
+}
+
+.promo-section .btn-custom {
+  margin-top: 2rem;
+}
+
+/* Video Section */
+.video-section {
+  background-color: #fff4ff;
+  margin-top: 5rem;
+  padding: 3rem 0;
+}
+
+.video-section .video-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.video-section .text {
+  margin-right: 2rem;
+}
+
+.video-section h1 {
+  color: #ff5d00;
+  margin-bottom: 20px;
+}
+
+.video-section p {
+  color: #393939;
+}
+
+/* Success Stories Section */
+.success-stories-section {
+  background-color: #f5f5f5;
+  padding: 5rem 0;
+}
+
+.success-stories-section h1 {
+  color: #ff5d00;
+  margin-bottom: 3rem;
+}
+
+.success-stories-section p {
+  color: #393939;
+}
+
+.success-stories-section .card {
+  background-color: #ffffff;
+  border: none;
+}
+
+.success-stories-section .card .card-body {
+  padding: 2rem;
+}
+
+.success-stories-section .card .card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.success-stories-section .profile-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.success-stories-section .profile-info h5 {
+  font-weight: bold;
+}
+
+.success-stories-section .profile-info p {
+  color: gray;
+}
+
+/* Expert Guidance Section */
+.expert-guidance-section {
+  padding: 5rem 0;
+}
+
+.expert-guidance-section h1 {
+  color: #ff5d00;
+  margin-bottom: 3rem;
+}
+
+.expert-guidance-section p {
+  color: #393939;
+}
+
+.expert-guidance-section .card {
+  border: none;
+}
+
+.expert-guidance-section .card .card-img-top {
+  border-radius: 5px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.expert-guidance-section .card .card-body {
+  padding: 2rem;
+}

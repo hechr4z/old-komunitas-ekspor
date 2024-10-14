@@ -1,0 +1,740 @@
+INFO - 2023-08-23 01:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:39:46 --> Attempt to read property "foto_artikel" on array
+in APPPATH\Views\user\home\index.php on line 11.
+ 1 APPPATH\Views\user\home\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:40:46 --> Unsupported operand types: array - array
+in APPPATH\Views\user\home\index.php on line 11.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 4 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:41:15 --> Attempt to read property "foto_artikel" on array
+in APPPATH\Views\user\home\index.php on line 11.
+ 1 APPPATH\Views\user\home\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:42:22 --> Attempt to read property "foto_artikel" on array
+in APPPATH\Views\user\home\index.php on line 11.
+ 1 APPPATH\Views\user\home\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:43:33 --> Attempt to read property "foto_artikel" on array
+in APPPATH\Views\user\home\index.php on line 11.
+ 1 APPPATH\Views\user\home\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:46:11 --> Attempt to read property "foto_artikel" on array
+in APPPATH\Views\user\home\index.php on line 11.
+ 1 APPPATH\Views\user\home\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:46:13 --> Attempt to read property "foto_artikel" on array
+in APPPATH\Views\user\home\index.php on line 11.
+ 1 APPPATH\Views\user\home\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:46:14 --> Attempt to read property "foto_artikel" on array
+in APPPATH\Views\user\home\index.php on line 11.
+ 1 APPPATH\Views\user\home\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:46:18 --> Attempt to read property "foto_artikel" on array
+in APPPATH\Views\user\home\index.php on line 11.
+ 1 APPPATH\Views\user\home\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:46:21 --> Attempt to read property "foto_artikel" on array
+in APPPATH\Views\user\home\index.php on line 11.
+ 1 APPPATH\Views\user\home\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:49:16 --> Attempt to read property "slug" on array
+in APPPATH\Views\user\home\index.php on line 15.
+ 1 APPPATH\Views\user\home\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "slug" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:55:07 --> Attempt to read property "deskripsi_artikel" on array
+in APPPATH\Views\user\home\index.php on line 473.
+ 1 APPPATH\Views\user\home\index.php(473): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "deskripsi_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php', 473)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(44): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 02:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:59:44 --> CSRF token verified.
+INFO - 2023-08-23 02:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 03:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 03:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:06:08 --> Call to a member function where() on array
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:09:31 --> Undefined variable $slug
+in APPPATH\Models\ArtikelModel.php on line 30.
+ 1 APPPATH\Models\ArtikelModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slug', 'C:\\xampp\\htdocs\\company-profile\\app\\Models\\ArtikelModel.php', 30)
+ 2 APPPATH\Controllers\user\Homectrl.php(51): App\Models\ArtikelModel->getDetailArtikel()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:10:36 --> Attempt to read property "foto_artikel" on array
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(58): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:14:39 --> Call to a member function where() on array
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:15:27 --> Call to a member function where() on array
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:19:16 --> Attempt to read property "foto_artikel" on array
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_artikel" on array', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:20:53 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:21:08 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:21:36 --> Cannot use object of type stdClass as array
+in APPPATH\Views\user\detail.php on line 11.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 4 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:21:55 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:22:45 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 03:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:22:52 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 03:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:22:58 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 03:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:24:40 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('rukun_islam')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 03:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:29:32 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('keutamaan_sholat')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:30:32 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(58): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('keutamaan_sholat')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:30:34 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(58): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('keutamaan_sholat')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 03:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:30:40 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(58): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:31:55 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:33:07 --> Undefined array key "nama_kategori"
+in APPPATH\Views\user\detail.php on line 15.
+ 1 APPPATH\Views\user\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:33:38 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(61): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:44:34 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(62): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 03:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:46:04 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(62): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:47:02 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(59): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:47:12 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(59): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:50:56 --> Call to undefined method App\Models\ArtikelModel::getResultArray
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\user\Homectrl.php(54): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:51:26 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(62): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('muslim_dan_islam')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 03:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:51:49 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(62): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:52:22 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(59): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:52:24 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(59): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:56:57 --> Undefined array key "foto_artikel"
+in APPPATH\Views\user\detail.php on line 11.
+ 1 APPPATH\Views\user\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_artikel"', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(65): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 03:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 03:59:51 --> Call to undefined method App\Models\ArtikelModel::firts
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\user\Homectrl.php(54): CodeIgniter\Model->__call('firts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 04:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 04:00:26 --> Cannot use object of type stdClass as array
+in APPPATH\Views\user\detail.php on line 11.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 4 APPPATH\Controllers\user\Homectrl.php(63): view('user/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 04:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 04:01:35 --> Undefined property: stdClass::$nama_kategori
+in APPPATH\Views\user\detail.php on line 15.
+ 1 APPPATH\Views\user\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_kategori', 'C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\company-profile\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(63): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 04:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-23 04:05:43 --> mysqli_sql_exception: Unknown column 'artikel.slug' in 'where clause' in C:\xampp\htdocs\company-profile\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\company-profile\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_arti...', 0)
+#1 C:\xampp\htdocs\company-profile\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_arti...')
+#2 C:\xampp\htdocs\company-profile\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_arti...')
+#3 C:\xampp\htdocs\company-profile\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_arti...', Array, false)
+#4 C:\xampp\htdocs\company-profile\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\company-profile\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\company-profile\app\Controllers\user\Homectrl.php(54): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\company-profile\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_...')
+#8 C:\xampp\htdocs\company-profile\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 C:\xampp\htdocs\company-profile\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\company-profile\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\company-profile\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-08-23 04:05:44 --> Unknown column 'artikel.slug' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_artikel`.*, `tb_kategori`.`nama_kategori`
+FROM `tb_artikel`
+JOIN `tb_kategori` ON `tb_kategori`.`id_kategori` = `tb_artikel`.`id_kategori`
+WHERE `artikel`.`slug` = \'islam_rahmatan_lil\\\'alamin\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_artikel`.*, `tb_kategori`.`nama_kategori`
+FROM `tb_artikel`
+JOIN `tb_kategori` ON `tb_kategori`.`id_kategori` = `tb_artikel`.`id_kategori`
+WHERE `artikel`.`slug` = \'islam_rahmatan_lil\\\'alamin\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_artikel`.*, `tb_kategori`.`nama_kategori`
+FROM `tb_artikel`
+JOIN `tb_kategori` ON `tb_kategori`.`id_kategori` = `tb_artikel`.`id_kategori`
+WHERE `artikel`.`slug` = \'islam_rahmatan_lil\\\'alamin\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_artikel`.*, `tb_kategori`.`nama_kategori`
+FROM `tb_artikel`
+JOIN `tb_kategori` ON `tb_kategori`.`id_kategori` = `tb_artikel`.`id_kategori`
+WHERE `artikel`.`slug` = :artikel.slug:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\user\Homectrl.php(54): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('islam_rahmatan_lil\'alamin')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 04:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 04:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 06:15:00 --> Class "App\Controllers\user\PageNotFoundException" not found
+in APPPATH\Controllers\user\Homectrl.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('contact.html')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 06:15:05 --> Class "App\Controllers\user\PageNotFoundException" not found
+in APPPATH\Controllers\user\Homectrl.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->viewArtikel('category.html')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\company-profile\\public\\index.php')
+INFO - 2023-08-23 06:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 06:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 07:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 07:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 07:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 07:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 07:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 07:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 07:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 07:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 08:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,180 @@
+.pendaftaran-section {
+    position: relative;
+    padding: 50px 15px; /* Mengurangi padding atas/bawah dari 100px menjadi 50px */
+    background: url('/assets-new/images/bg2.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 50vh; /* Mengatur tinggi minimum menjadi 50vh untuk kontrol yang lebih baik */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Menyusun item secara vertikal */
+    align-items: center; /* Memusatkan item secara horizontal */
+    justify-content: center; /* Memusatkan item secara vertikal */
+    text-align: center;
+    color: #fff; /* Menambahkan warna teks putih untuk kontras lebih baik di atas background */
+}
+
+/* Gaya untuk judul dengan garis bawah */
+.text-custom-title {
+    font-size: 2rem; /* Ukuran font untuk judul */
+    margin-bottom: 10px; /* Jarak bawah dari judul */
+    border-bottom: 2px solid #fff; /* Garis bawah dengan warna putih */
+}
+
+/* Gaya untuk paragraf khusus */
+.text-custom-paragraph {
+    color: white;
+    font-size: 1.2rem; /* Ukuran font untuk paragraf */
+    margin-top: 10px; /* Jarak atas dari judul */
+    margin-bottom: 100px; /* Jarak bawah dari paragraf */
+}
+
+/* Pusatkan teks secara kustom */
+.text-center-custom {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Styling untuk form-container */
+.form-container {
+    background-color: #f9f9f9; /* Warna latar belakang form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Lebar 100% dari kontainer */
+    max-width: 600px; /* Lebar maksimum form */
+    box-sizing: border-box; /* Memastikan padding tidak menambah lebar keseluruhan */
+    margin: 50px auto; /* Jarak atas dan bawah dari elemen lain, pusatkan form */
+}
+
+/* Styling untuk kontainer utama */
+.container-center {
+    display: flex;
+    justify-content: center; /* Pusatkan konten horizontal */
+    align-items: center; /* Pusatkan konten vertikal */
+    min-height: 100vh; /* Set minimal tinggi kontainer sama dengan tinggi viewport */
+    padding: 20px; /* Padding sekitar konten */
+}
+
+/* Styling untuk judul form */
+.form-container h2 {
+    color: #87D5C8; /* Warna ungu untuk judul form */
+    margin-bottom: 20px;
+    text-align: center; /* Pusatkan judul */
+}
+
+/* Styling untuk elemen form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical; /* Biarkan textarea dapat di-resize secara vertikal */
+}
+
+/* Styling untuk tombol submit */
+button[type="submit"] {
+    background-color: #F69E00; /* Warna ungu untuk tombol */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0; /* Margin atas 20px dan margin bawah 0, pusatkan tombol */
+}
+
+.btn-bold {
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #7a2e7a; /* Warna ungu gelap saat hover */
+}
+
+/* Styling untuk checklist */
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style for new form elements */
+.form-group .checkbox-group {
+    display: flex;
+    justify-content: space-between; /* Membuat checklist berada dalam satu baris */
+    margin-bottom: 15px;
+}
+
+.checkbox-group label {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+/* Optional: Adjust layout for smaller screens */
+@media (max-width: 768px) {
+    .overlay-title {
+        font-size: 1.2rem;
+    }
+
+    .overlay-paragraph {
+        font-size: 0.9rem;
+    }
+
+    .text-custom-title {
+        font-size: 1.5rem; /* Ukuran font lebih kecil untuk layar sempit */
+    }
+
+    .text-custom-paragraph {
+        font-size: 1rem; /* Ukuran font lebih kecil untuk paragraf */
+    }
+
+    .form-container {
+        width: 90%; /* Lebar form lebih kecil pada layar sempit */
+    }
+}
+
+/* Responsivitas untuk layar sangat kecil */
+@media (max-width: 576px) {
+    .overlay-title {
+        font-size: 1rem;
+    }
+
+    .overlay-paragraph {
+        font-size: 0.8rem;
+    }
+
+    .text-custom-title {
+        font-size: 1.2rem; /* Ukuran font lebih kecil untuk layar sangat sempit */
+        margin-top: 80px; /* Jarak atas lebih kecil */
+    }
+
+    .text-custom-paragraph {
+        font-size: 0.9rem; /* Ukuran font lebih kecil untuk paragraf */
+    }
+
+    .text-center-custom {
+        padding: 0 15px; /* Menambahkan padding samping untuk layar sempit */
+    }
+
+    .form-container {
+        width: 100%; /* Lebar form 100% pada layar sangat kecil */
+    }
+}

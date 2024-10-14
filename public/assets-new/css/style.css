@@ -1,0 +1,202 @@
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+  }
+  .hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    transform: translateY(-50%);
+    color: #FFFFFF;
+    text-align: left;
+    width: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .hero-text h1 {
+    font-size: 3.5rem;
+  }
+  .hero-text p {
+    margin-bottom: 40px;
+  }
+  .hero-text .highlight {
+    color: #FFB228;
+  }
+  .hero-video video {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    border: 5px solid white;
+  }
+  
+  .btn-custom {
+    background-color: #f69e00;
+    border-color: #f69e00;
+    font-weight: 600;
+    color: white;
+  }
+  .btn-custom:hover {
+    background-color: #ffa500;
+    border-color: #ffa500;
+  }
+  
+  .features-section {
+    background-color: #77287D;
+    color: #FFFFFF;
+  }
+  .features-section .title {
+    color: #933393;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .features-section .feature-details {
+    margin-top: 50px;
+  }
+  .features-section .feature-details h1 {
+    margin-bottom: 3rem;
+    padding-top: 5rem;
+  }
+  .features-section .feature-details p {
+    margin-bottom: 20px;
+  }
+  .features-section hr {
+    width: 45%;
+    border: 1.5px solid #FFFFFF;
+  }
+  .card-custom {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 70%;
+    border-radius: 15%;
+    background-color: #FFFFFF;
+    color: #121212;
+    margin-bottom: 4rem;
+  }
+  .card-custom img.profile-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 50%;
+    margin-left: 2rem;
+  }
+  .profile-info h5 {
+    font-weight: bold;
+  }
+  .profile-info p {
+    color: gray;
+  }
+  
+  .promo-section {
+    color: #393939;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .promo-section h1 {
+    color: #933393;
+  }
+  .promo-section p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .promo-section .btn-custom {
+    margin-top: 2rem;
+  }
+  
+  .video-section {
+    background-color: #FFF4FF;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .video-section .video-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+  }
+  .video-section .text {
+    margin-right: 2rem;
+  }
+  .video-section h1 {
+    color: #FF5D00;
+    margin-bottom: 20px;
+  }
+  .video-section p {
+    color: #393939;
+  }
+  
+  .success-stories-section {
+    background-color: #F5F5F5;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .success-stories-section h1 {
+    color: #FF5D00;
+    margin-bottom: 3rem;
+  }
+  .success-stories-section p {
+    color: #393939;
+  }
+  .success-stories-section .card {
+    background-color: #FFFFFF;
+    border: none;
+  }
+  .success-stories-section .card .card-body {
+    padding: 2rem;
+  }
+  .success-stories-section .card .card-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  .success-stories-section .profile-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 50%;
+  }
+  .success-stories-section .profile-info h5 {
+    font-weight: bold;
+  }
+  .success-stories-section .profile-info p {
+    color: gray;
+  }
+  
+  .expert-guidance-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .expert-guidance-section h1 {
+    color: #FF5D00;
+    margin-bottom: 3rem;
+  }
+  .expert-guidance-section p {
+    color: #393939;
+  }
+  .expert-guidance-section .card {
+    border: none;
+  }
+  .expert-guidance-section .card .card-img-top {
+    border-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .expert-guidance-section .card .card-body {
+    padding: 2rem;
+  }
+  
+  

@@ -1,0 +1,969 @@
+INFO - 2024-09-06 02:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:18:35 --> CSRF token verified.
+INFO - 2024-09-06 02:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:44 --> CSRF token verified.
+INFO - 2024-09-06 02:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:46 --> CSRF token verified.
+INFO - 2024-09-06 02:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 02:20:51 --> Class "App\Models\DPCModels" not found
+in APPPATH\Controllers\admin\Member.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\admin\Member->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 02:29:36 --> mysqli_sql_exception: Table 'jagodm.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\app\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 02:29:36 --> Table 'jagodm.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = :role:
+ORDER BY `id_member` DESC', [...], false)
+ 5 APPPATH\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 02:30:31 --> mysqli_sql_exception: Table 'jagodm.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\app\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 02:30:31 --> Table 'jagodm.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = :role:
+ORDER BY `id_member` DESC', [...], false)
+ 5 APPPATH\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 02:32:02 --> mysqli_sql_exception: Table 'jagodm.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\app\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 02:32:02 --> Table 'jagodm.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = :role:
+ORDER BY `id_member` DESC', [...], false)
+ 5 APPPATH\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 02:32:03 --> mysqli_sql_exception: Table 'jagodm.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\app\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 02:32:03 --> Table 'jagodm.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = :role:
+ORDER BY `id_member` DESC', [...], false)
+ 5 APPPATH\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 02:32:03 --> mysqli_sql_exception: Table 'jagodm.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\app\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 02:32:03 --> Table 'jagodm.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = :role:
+ORDER BY `id_member` DESC', [...], false)
+ 5 APPPATH\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 02:32:04 --> mysqli_sql_exception: Table 'jagodm.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\app\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 02:32:04 --> Table 'jagodm.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = :role:
+ORDER BY `id_member` DESC', [...], false)
+ 5 APPPATH\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 02:32:05 --> mysqli_sql_exception: Table 'jagodm.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\app\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 02:32:05 --> Table 'jagodm.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = :role:
+ORDER BY `id_member` DESC', [...], false)
+ 5 APPPATH\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 02:33:56 --> mysqli_sql_exception: Table 'jagodm.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\app\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 02:33:56 --> Table 'jagodm.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = :role:
+ORDER BY `id_member` DESC', [...], false)
+ 5 APPPATH\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 02:34:38 --> mysqli_sql_exception: Table 'jagodm.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\app\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 02:34:38 --> Table 'jagodm.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = :role:
+ORDER BY `id_member` DESC', [...], false)
+ 5 APPPATH\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 02:34:40 --> mysqli_sql_exception: Table 'jagodm.tb_dpc' doesn't exist in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\app\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 02:34:40 --> Table 'jagodm.tb_dpc' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+JOIN `tb_dpc` ON `tb_dpc`.`id_dpc`=`tb_member`.`id_dpc`
+WHERE `role` = :role:
+ORDER BY `id_member` DESC', [...], false)
+ 5 APPPATH\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 02:39:32 --> mysqli_sql_exception: Unknown column 'tb_member.id_kabkota' in 'on clause' in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\app\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 02:39:32 --> Unknown column 'tb_member.id_kabkota' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_member`
+JOIN `tb_kabkota` ON `tb_kabkota`.`id_kabkota`=`tb_member`.`id_kabkota`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_member`
+JOIN `tb_kabkota` ON `tb_kabkota`.`id_kabkota`=`tb_member`.`id_kabkota`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_member`
+JOIN `tb_kabkota` ON `tb_kabkota`.`id_kabkota`=`tb_member`.`id_kabkota`
+WHERE `role` = \'user\'
+ORDER BY `id_member` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+JOIN `tb_kabkota` ON `tb_kabkota`.`id_kabkota`=`tb_member`.`id_kabkota`
+WHERE `role` = :role:
+ORDER BY `id_member` DESC', [...], false)
+ 5 APPPATH\Models\MemberModels.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\Member.php(39): App\Models\MemberModels->getMemberAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+ERROR - 2024-09-06 02:45:44 --> mysqli_sql_exception: Unknown column 'id_dpc' in 'field list' in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Xampp\htdocs\JagoDigital\app\Database\Seeds\TbMemberSeeder.php(96): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Xampp\htdocs\JagoDigital\system\Database\Seeder.php(146): App\Database\Seeds\TbMemberSeeder->run()
+#7 D:\Xampp\htdocs\JagoDigital\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Xampp\htdocs\JagoDigital\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Xampp\htdocs\JagoDigital\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Xampp\htdocs\JagoDigital\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2024-09-06 02:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 02:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 02:46:09 --> Undefined variable $all_data_DPC
+in APPPATH\Views\admin\member\tambah.php on line 46.
+ 1 APPPATH\Views\admin\member\tambah.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_data_DPC', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(96): view('admin/member/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 02:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 03:01:01 --> Undefined variable $provinsi
+in APPPATH\Views\admin\member\tambah.php on line 57.
+ 1 APPPATH\Views\admin\member\tambah.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provinsi', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(96): view('admin/member/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 03:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 03:05:41 --> Undefined variable $provinsi
+in APPPATH\Views\admin\member\tambah.php on line 57.
+ 1 APPPATH\Views\admin\member\tambah.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provinsi', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(107): view('admin/member/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 03:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 03:05:42 --> Undefined variable $provinsi
+in APPPATH\Views\admin\member\tambah.php on line 57.
+ 1 APPPATH\Views\admin\member\tambah.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provinsi', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(107): view('admin/member/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 03:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 03:05:43 --> Undefined variable $provinsi
+in APPPATH\Views\admin\member\tambah.php on line 57.
+ 1 APPPATH\Views\admin\member\tambah.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provinsi', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(107): view('admin/member/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 03:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 03:05:44 --> Undefined variable $provinsi
+in APPPATH\Views\admin\member\tambah.php on line 57.
+ 1 APPPATH\Views\admin\member\tambah.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provinsi', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(107): view('admin/member/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 03:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:09:47 --> CSRF token verified.
+INFO - 2024-09-06 03:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:42:42 --> CSRF token verified.
+INFO - 2024-09-06 03:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:44:00 --> CSRF token verified.
+INFO - 2024-09-06 03:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:45:55 --> CSRF token verified.
+INFO - 2024-09-06 03:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:46:13 --> CSRF token verified.
+INFO - 2024-09-06 03:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 03:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 04:13:45 --> Call to undefined method App\Models\MemberModels::getAllMembersWithLocation
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\admin\Member.php(17): CodeIgniter\Model->__call('getAllMembersWithLocation', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 04:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 04:15:51 --> Class "App\Models\ProvinsiModel" not found
+in APPPATH\Controllers\admin\Member.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 04:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 04:25:55 --> Undefined variable $all_data_Kabkota
+in APPPATH\Views\admin\member\tambah.php on line 46.
+ 1 APPPATH\Views\admin\member\tambah.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_data_Kabkota', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(26): view('admin/member/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 04:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 04:27:47 --> Undefined variable $all_data_Kabkota
+in APPPATH\Views\admin\member\tambah.php on line 46.
+ 1 APPPATH\Views\admin\member\tambah.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_data_Kabkota', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(26): view('admin/member/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 04:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 04:27:49 --> Undefined variable $all_data_Kabkota
+in APPPATH\Views\admin\member\tambah.php on line 46.
+ 1 APPPATH\Views\admin\member\tambah.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_data_Kabkota', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(26): view('admin/member/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 04:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 04:27:55 --> Undefined variable $all_data_Kabkota
+in APPPATH\Views\admin\member\tambah.php on line 46.
+ 1 APPPATH\Views\admin\member\tambah.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_data_Kabkota', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(26): view('admin/member/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+CRITICAL - 2024-09-06 04:28:10 --> Undefined variable $provinsi
+in APPPATH\Views\admin\member\tambah.php on line 29.
+ 1 APPPATH\Views\admin\member\tambah.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provinsi', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(26): view('admin/member/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+CRITICAL - 2024-09-06 04:28:34 --> Undefined variable $provinsi
+in APPPATH\Views\admin\member\tambah.php on line 29.
+ 1 APPPATH\Views\admin\member\tambah.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provinsi', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(26): view('admin/member/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+CRITICAL - 2024-09-06 04:29:30 --> Class "App\Controllers\admin\ProvinsiModels" not found
+in APPPATH\Controllers\admin\Member.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 04:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:40:44 --> CSRF token verified.
+INFO - 2024-09-06 04:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:40:55 --> CSRF token verified.
+INFO - 2024-09-06 04:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 04:44:52 --> Undefined variable $memberData
+in APPPATH\Views\admin\member\edit.php on line 12.
+ 1 APPPATH\Views\admin\member\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memberData', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/edit', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(93): view('admin/member/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 04:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-06 04:47:54 --> Undefined variable $provinsi
+in APPPATH\Views\admin\member\edit.php on line 35.
+ 1 APPPATH\Views\admin\member\edit.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provinsi', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\edit.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/edit', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(93): view('admin/member/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->edit('25')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+CRITICAL - 2024-09-06 04:51:00 --> Undefined variable $provinsi
+in APPPATH\Views\admin\member\edit.php on line 39.
+ 1 APPPATH\Views\admin\member\edit.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provinsi', 'D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\edit.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp\\htdocs\\JagoDigital\\app\\Views\\admin\\member\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/member/edit', [], true)
+ 5 APPPATH\Controllers\admin\Member.php(93): view('admin/member/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->edit('25')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 04:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-06 04:58:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'jagodm', 3306, '', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '25')
+#6 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(95): CodeIgniter\BaseModel->find('25')
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->edit('25')
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#9 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Xampp\htdocs\JagoDigital\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Xampp\htdocs\JagoDigital\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '25')
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(95): CodeIgniter\BaseModel->find('25')
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->edit('25')
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 04:58:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+WHERE `tb_member`.`id_member` = :tb_member.id_member:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '25')
+ 5 APPPATH\Controllers\admin\Member.php(95): CodeIgniter\BaseModel->find('25')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->edit('25')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+ERROR - 2024-09-06 04:58:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'jagodm', 3306, '', 0)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\JagoDigital\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\JagoDigital\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '25')
+#6 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(95): CodeIgniter\BaseModel->find('25')
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->edit('25')
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#9 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\JagoDigital\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Xampp\htdocs\JagoDigital\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Xampp\htdocs\JagoDigital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Xampp\htdocs\JagoDigital\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Xampp\htdocs\JagoDigital\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '25')
+#5 D:\Xampp\htdocs\JagoDigital\app\Controllers\admin\Member.php(95): CodeIgniter\BaseModel->find('25')
+#6 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Member->edit('25')
+#7 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+#8 D:\Xampp\htdocs\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-09-06 04:58:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_member`
+WHERE `tb_member`.`id_member` = :tb_member.id_member:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '25')
+ 5 APPPATH\Controllers\admin\Member.php(95): CodeIgniter\BaseModel->find('25')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Member->edit('25')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\JagoDigital\\public\\index.php')
+INFO - 2024-09-06 04:58:43 --> CSRF token verified.
+INFO - 2024-09-06 04:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:59:08 --> CSRF token verified.
+INFO - 2024-09-06 04:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:59:28 --> CSRF token verified.
+INFO - 2024-09-06 04:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 04:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 05:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 05:02:59 --> CSRF token verified.
+INFO - 2024-09-06 05:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 05:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 05:03:27 --> CSRF token verified.
+INFO - 2024-09-06 05:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 05:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 08:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 08:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 08:51:34 --> CSRF token verified.
+INFO - 2024-09-06 08:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 08:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 08:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 08:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 08:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 08:51:52 --> CSRF token verified.
+INFO - 2024-09-06 08:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 08:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-06 08:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,197 @@
+INFO - 2023-08-29 02:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 02:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 02:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 02:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 02:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-29 02:59:44 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/user/layout/nav.php on line 12.
+ 1 APPPATH/Views/user/layout/nav.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$uri', '/home/k4991560/public_html/yayat/web-dakwah/app/Views/user/layout/nav.php', 12)
+ 2 SYSTEMPATH/View/View.php(224): include('/home/k4991560/public_html/yayat/web-dakwah/app/Views/user/layout/nav.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(452): CodeIgniter\View\View->render('user/layout/nav', null, true)
+ 5 APPPATH/Views/user/layout/header.php(56): CodeIgniter\View\View->include('user/layout/nav')
+ 6 SYSTEMPATH/View/View.php(224): include('/home/k4991560/public_html/yayat/web-dakwah/app/Views/user/layout/header.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(452): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 9 APPPATH/Views/user/template/template.php(35): CodeIgniter\View\View->include('user/layout/header')
+10 SYSTEMPATH/View/View.php(224): include('/home/k4991560/public_html/yayat/web-dakwah/app/Views/user/template/template.php')
+11 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+13 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+14 APPPATH/Controllers/user/Homectrl.php(42): view('user/home/index', [...])
+15 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+16 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+17 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-29 03:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-29 03:01:08 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/user/layout/nav.php on line 12.
+ 1 APPPATH/Views/user/layout/nav.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$uri', '/home/k4991560/public_html/yayat/web-dakwah/app/Views/user/layout/nav.php', 12)
+ 2 SYSTEMPATH/View/View.php(224): include('/home/k4991560/public_html/yayat/web-dakwah/app/Views/user/layout/nav.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(452): CodeIgniter\View\View->render('user/layout/nav', null, true)
+ 5 APPPATH/Views/user/layout/header.php(56): CodeIgniter\View\View->include('user/layout/nav')
+ 6 SYSTEMPATH/View/View.php(224): include('/home/k4991560/public_html/yayat/web-dakwah/app/Views/user/layout/header.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(452): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 9 APPPATH/Views/user/template/template.php(35): CodeIgniter\View\View->include('user/layout/header')
+10 SYSTEMPATH/View/View.php(224): include('/home/k4991560/public_html/yayat/web-dakwah/app/Views/user/template/template.php')
+11 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+13 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+14 APPPATH/Controllers/user/Homectrl.php(42): view('user/home/index', [...])
+15 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+16 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+17 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-29 03:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-29 03:40:09 --> mysqli_sql_exception: Table 'k4991560_web_dakwah.tb_profil' doesn't exist in /home/k4991560/public_html/yayat/web-dakwah/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/k4991560/public_html/yayat/web-dakwah/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/k4991560/public_html/yayat/web-dakwah/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/k4991560/public_html/yayat/web-dakwah/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/k4991560/public_html/yayat/web-dakwah/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/k4991560/public_html/yayat/web-dakwah/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/k4991560/public_html/yayat/web-dakwah/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/k4991560/public_html/yayat/web-dakwah/app/Controllers/user/Tentangctrl.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/k4991560/public_html/yayat/web-dakwah/system/CodeIgniter.php(932): App\Controllers\user\Tentangctrl->index()
+#8 /home/k4991560/public_html/yayat/web-dakwah/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Tentangctrl))
+#9 /home/k4991560/public_html/yayat/web-dakwah/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/k4991560/public_html/yayat/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-29 03:40:09 --> Table 'k4991560_web_dakwah.tb_profil' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `tb_profil`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_profil`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_profil`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/user/Tentangctrl.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\Tentangctrl->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Tentangctrl))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-29 03:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-29 03:40:51 --> mysqli_sql_exception: Table 'k4991560_web_dakwah.tb_profil' doesn't exist in /home/k4991560/public_html/yayat/web-dakwah/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/k4991560/public_html/yayat/web-dakwah/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/k4991560/public_html/yayat/web-dakwah/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/k4991560/public_html/yayat/web-dakwah/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/k4991560/public_html/yayat/web-dakwah/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/k4991560/public_html/yayat/web-dakwah/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/k4991560/public_html/yayat/web-dakwah/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/k4991560/public_html/yayat/web-dakwah/app/Controllers/user/Tentangctrl.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/k4991560/public_html/yayat/web-dakwah/system/CodeIgniter.php(932): App\Controllers\user\Tentangctrl->index()
+#8 /home/k4991560/public_html/yayat/web-dakwah/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Tentangctrl))
+#9 /home/k4991560/public_html/yayat/web-dakwah/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/k4991560/public_html/yayat/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-29 03:40:51 --> Table 'k4991560_web_dakwah.tb_profil' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `tb_profil`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_profil`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_profil`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/user/Tentangctrl.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\Tentangctrl->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Tentangctrl))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-29 03:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-29 03:43:46 --> mysqli_sql_exception: Table 'k4991560_web_dakwah.tb_profil' doesn't exist in /home/k4991560/public_html/yayat/web-dakwah/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/k4991560/public_html/yayat/web-dakwah/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/k4991560/public_html/yayat/web-dakwah/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/k4991560/public_html/yayat/web-dakwah/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/k4991560/public_html/yayat/web-dakwah/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/k4991560/public_html/yayat/web-dakwah/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/k4991560/public_html/yayat/web-dakwah/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/k4991560/public_html/yayat/web-dakwah/app/Controllers/user/Tentangctrl.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/k4991560/public_html/yayat/web-dakwah/system/CodeIgniter.php(932): App\Controllers\user\Tentangctrl->index()
+#8 /home/k4991560/public_html/yayat/web-dakwah/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Tentangctrl))
+#9 /home/k4991560/public_html/yayat/web-dakwah/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/k4991560/public_html/yayat/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-29 03:43:46 --> Table 'k4991560_web_dakwah.tb_profil' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `tb_profil`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_profil`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_profil`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/user/Tentangctrl.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\user\Tentangctrl->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Tentangctrl))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-29 03:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 03:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 05:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 05:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 06:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 06:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 06:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 07:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 07:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 07:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 07:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 07:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 07:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 07:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 07:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 07:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 08:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 08:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 08:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 11:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 12:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 12:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-29 12:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

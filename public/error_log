@@ -1,0 +1,4 @@
+[12-Oct-2023 02:43:57 UTC] PHP Fatal error:  Cannot use [] for reading in /home/k6594502/public_html/CRM/crm/app/Controllers/admin/User.php on line 66
+[12-Oct-2023 02:49:45 UTC] PHP Fatal error:  Cannot use [] for reading in /home/k6594502/public_html/CRM/crm/app/Controllers/admin/User.php on line 136
+[12-Oct-2023 02:49:48 UTC] PHP Fatal error:  Cannot use [] for reading in /home/k6594502/public_html/CRM/crm/app/Controllers/admin/User.php on line 136
+[12-Oct-2023 02:49:59 UTC] PHP Fatal error:  Cannot use [] for reading in /home/k6594502/public_html/CRM/crm/app/Controllers/admin/User.php on line 136

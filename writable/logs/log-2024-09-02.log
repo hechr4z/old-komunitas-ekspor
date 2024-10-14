@@ -1,0 +1,260 @@
+INFO - 2024-09-02 03:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 03:59:22 --> CSRF token verified.
+INFO - 2024-09-02 03:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 03:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 03:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 03:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 03:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:01:19 --> CSRF token verified.
+ERROR - 2024-09-02 04:01:19 --> mysqli_sql_exception: Unknown column 'jabatan_founder' in 'field list' in C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\JagoDigital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\JagoDigital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\JagoDigital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\JagoDigital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\JagoDigital\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\JagoDigital\app\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+#10 C:\laragon\www\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+#11 C:\laragon\www\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-09-02 04:01:19 --> Unknown column 'jabatan_founder' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1).jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1).jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1).jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (:nama_founder:, :jabatan_founder:, :deskripsi_founder:, :foto_founder:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\JagoDigital\\public\\index.php')
+INFO - 2024-09-02 04:02:12 --> CSRF token verified.
+ERROR - 2024-09-02 04:02:12 --> mysqli_sql_exception: Unknown column 'jabatan_founder' in 'field list' in C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\JagoDigital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\JagoDigital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\JagoDigital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\JagoDigital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\JagoDigital\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\JagoDigital\app\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+#10 C:\laragon\www\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+#11 C:\laragon\www\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-09-02 04:02:12 --> Unknown column 'jabatan_founder' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_1.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_1.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_1.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (:nama_founder:, :jabatan_founder:, :deskripsi_founder:, :foto_founder:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\JagoDigital\\public\\index.php')
+INFO - 2024-09-02 04:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:02:17 --> CSRF token verified.
+ERROR - 2024-09-02 04:02:18 --> mysqli_sql_exception: Unknown column 'jabatan_founder' in 'field list' in C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\JagoDigital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\JagoDigital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\JagoDigital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\JagoDigital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\JagoDigital\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\JagoDigital\app\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+#10 C:\laragon\www\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+#11 C:\laragon\www\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-09-02 04:02:18 --> Unknown column 'jabatan_founder' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_2.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_2.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_2.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (:nama_founder:, :jabatan_founder:, :deskripsi_founder:, :foto_founder:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\JagoDigital\\public\\index.php')
+INFO - 2024-09-02 04:03:24 --> CSRF token verified.
+ERROR - 2024-09-02 04:03:24 --> mysqli_sql_exception: Unknown column 'jabatan_founder' in 'field list' in C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\JagoDigital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\JagoDigital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\JagoDigital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\JagoDigital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\JagoDigital\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\JagoDigital\app\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+#10 C:\laragon\www\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+#11 C:\laragon\www\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-09-02 04:03:24 --> Unknown column 'jabatan_founder' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_3.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_3.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_3.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (:nama_founder:, :jabatan_founder:, :deskripsi_founder:, :foto_founder:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\JagoDigital\\public\\index.php')
+INFO - 2024-09-02 04:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:07:06 --> CSRF token verified.
+ERROR - 2024-09-02 04:07:06 --> mysqli_sql_exception: Unknown column 'jabatan_founder' in 'field list' in C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\JagoDigital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\JagoDigital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\JagoDigital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\JagoDigital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\JagoDigital\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\JagoDigital\app\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+#10 C:\laragon\www\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+#11 C:\laragon\www\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-09-02 04:07:06 --> Unknown column 'jabatan_founder' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_4.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_4.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO terbaik yang ada di elecomp \\r\\nNO 1. no kecrot min aseli\', \'KelasYogadiCangguYogaCentreBali (1)_4.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (:nama_founder:, :jabatan_founder:, :deskripsi_founder:, :foto_founder:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\JagoDigital\\public\\index.php')
+INFO - 2024-09-02 04:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:09:08 --> CSRF token verified.
+ERROR - 2024-09-02 04:09:08 --> mysqli_sql_exception: Unknown column 'jabatan_founder' in 'field list' in C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\JagoDigital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\JagoDigital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\JagoDigital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\JagoDigital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\JagoDigital\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\JagoDigital\app\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+#10 C:\laragon\www\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+#11 C:\laragon\www\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-09-02 04:09:08 --> Unknown column 'jabatan_founder' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO ELEKOMP Namber 1\\r\\nRIIL SIGMA NO KECROT \', \'KelasYogadiCangguYogaCentreBali (1)_5.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO ELEKOMP Namber 1\\r\\nRIIL SIGMA NO KECROT \', \'KelasYogadiCangguYogaCentreBali (1)_5.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO ELEKOMP Namber 1\\r\\nRIIL SIGMA NO KECROT \', \'KelasYogadiCangguYogaCentreBali (1)_5.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (:nama_founder:, :jabatan_founder:, :deskripsi_founder:, :foto_founder:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\JagoDigital\\public\\index.php')
+INFO - 2024-09-02 04:10:02 --> CSRF token verified.
+ERROR - 2024-09-02 04:10:02 --> mysqli_sql_exception: Unknown column 'jabatan_founder' in 'field list' in C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\JagoDigital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\JagoDigital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\JagoDigital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\JagoDigital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\JagoDigital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\JagoDigital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\JagoDigital\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\JagoDigital\app\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\JagoDigital\system\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+#10 C:\laragon\www\JagoDigital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+#11 C:\laragon\www\JagoDigital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\JagoDigital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\JagoDigital\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-09-02 04:10:02 --> Unknown column 'jabatan_founder' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO ELEKOMP Namber 1\\r\\nRIIL SIGMA NO KECROT \', \'KelasYogadiCangguYogaCentreBali (1)_6.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO ELEKOMP Namber 1\\r\\nRIIL SIGMA NO KECROT \', \'KelasYogadiCangguYogaCentreBali (1)_6.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (\'Fernandos\', \'CEO PT ELEKOMP\', \'CEO ELEKOMP Namber 1\\r\\nRIIL SIGMA NO KECROT \', \'KelasYogadiCangguYogaCentreBali (1)_6.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_founder` (`nama_founder`, `jabatan_founder`, `deskripsi_founder`, `foto_founder`) VALUES (:nama_founder:, :jabatan_founder:, :deskripsi_founder:, :foto_founder:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\admin\Founder.php(71): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Founder->proses_tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Founder))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\JagoDigital\\public\\index.php')
+INFO - 2024-09-02 04:16:38 --> CSRF token verified.
+INFO - 2024-09-02 04:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 04:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,946 @@
+INFO - 2023-10-03 02:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 02:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 02:15:27 --> CSRF token verified.
+INFO - 2023-10-03 02:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 02:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 02:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 02:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 02:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 02:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 02:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:10:38 --> CSRF token verified.
+INFO - 2023-10-03 03:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:10:42 --> Undefined property: stdClass::$link
+in APPPATH\Views\admin\panduan\index.php on line 39.
+ 1 APPPATH\Views\admin\panduan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$link', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\panduan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\panduan\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/panduan/index', [], true)
+ 5 APPPATH\Controllers\admin\Panduan.php(29): view('admin/panduan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Panduan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Panduan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:23:54 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(93): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:34:08 --> Undefined variable $panduan_khusus
+in APPPATH\Views\admin\user\tambah.php on line 40.
+ 1 APPPATH\Views\admin\user\tambah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $panduan_khusus', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\tambah.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/tambah', [], true)
+ 5 APPPATH\Controllers\admin\User.php(56): view('admin/user/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:35:12 --> Undefined property: mysqli::$pertanyaan
+in APPPATH\Views\admin\user\tambah.php on line 41.
+ 1 APPPATH\Views\admin\user\tambah.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$pertanyaan', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\tambah.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/tambah', [], true)
+ 5 APPPATH\Controllers\admin\User.php(57): view('admin/user/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:35:18 --> Undefined property: mysqli::$pertanyaan
+in APPPATH\Views\admin\user\tambah.php on line 41.
+ 1 APPPATH\Views\admin\user\tambah.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$pertanyaan', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\tambah.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/tambah', [], true)
+ 5 APPPATH\Controllers\admin\User.php(57): view('admin/user/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:36:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\PanduanModel.php on line 24.
+ 1 APPPATH\Controllers\admin\User.php(52): App\Models\PanduanModel->getPanduanKhusus()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:36:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\PanduanModel.php on line 24.
+ 1 APPPATH\Controllers\admin\User.php(52): App\Models\PanduanModel->getPanduanKhusus()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:37:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH\Models\PanduanModel.php on line 24.
+ 1 APPPATH\Controllers\admin\User.php(52): App\Models\PanduanModel->getPanduanKhusus()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:37:31 --> Attempt to read property "pertanyaan" on array
+in APPPATH\Views\admin\user\tambah.php on line 41.
+ 1 APPPATH\Views\admin\user\tambah.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pertanyaan" on array', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\tambah.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/tambah', [], true)
+ 5 APPPATH\Controllers\admin\User.php(57): view('admin/user/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:41:37 --> CSRF token verified.
+INFO - 2023-10-03 03:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:41:51 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(98): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:47:57 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(101): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:48:11 --> CSRF token verified.
+INFO - 2023-10-03 03:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:48:25 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(101): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:48:41 --> CSRF token verified.
+INFO - 2023-10-03 03:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:48:54 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(101): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:49:43 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(101): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:50:04 --> CSRF token verified.
+INFO - 2023-10-03 03:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:50:14 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(101): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:50:22 --> CSRF token verified.
+INFO - 2023-10-03 03:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:50:31 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(101): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:51:53 --> CSRF token verified.
+INFO - 2023-10-03 03:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:55:03 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\user\edit.php on line 49.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 4 APPPATH\Controllers\admin\User.php(101): view('admin/user/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('4')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 03:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 03:58:51 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(101): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 03:58:59 --> CSRF token verified.
+ERROR - 2023-10-03 03:58:59 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `tb_user...', 0)
+#1 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tb_user...')
+#2 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tb_user...')
+#3 C:\xampp\htdocs\crm\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_user...', Array, false)
+#4 C:\xampp\htdocs\crm\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\crm\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\crm\system\Model.php(756): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\crm\app\Controllers\admin\User.php(124): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\crm\system\CodeIgniter.php(932): App\Controllers\admin\User->proses_edit('4')
+#9 C:\xampp\htdocs\crm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+#10 C:\xampp\htdocs\crm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crm\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-03 03:58:59 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `tb_user` SET `nama_user` = \'Dapur Mutiara\', `username` = \'user1\', `password` = \'user1\', `panduan_khusus` = (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\',\'cara membuat web menjadi lebih menarik? 4\')
+WHERE `id_user` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tb_user` SET `nama_user` = \'Dapur Mutiara\', `username` = \'user1\', `password` = \'user1\', `panduan_khusus` = (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\',\'cara membuat web menjadi lebih menarik? 4\')
+WHERE `id_user` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tb_user` SET `nama_user` = \'Dapur Mutiara\', `username` = \'user1\', `password` = \'user1\', `panduan_khusus` = (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\',\'cara membuat web menjadi lebih menarik? 4\')
+WHERE `id_user` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_user` SET `nama_user` = :nama_user:, `username` = :username:, `password` = :password:, `panduan_khusus` = :panduan_khusus:
+WHERE `id_user` = :id_user:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\admin\User.php(124): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->proses_edit('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:04:03 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(106): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:04:41 --> CSRF token verified.
+INFO - 2023-10-03 04:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:04:51 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(106): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:06:24 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(106): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:06:53 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(106): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:07:27 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(106): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:11:21 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(106): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:11:48 --> CSRF token verified.
+INFO - 2023-10-03 04:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:14:11 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(106): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:14:19 --> CSRF token verified.
+CRITICAL - 2023-10-03 04:17:01 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin/user/proses_edit/5', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:17:09 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(106): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:17:18 --> CSRF token verified.
+INFO - 2023-10-03 04:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:19:28 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(106): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:19:38 --> CSRF token verified.
+INFO - 2023-10-03 04:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:22:23 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(106): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:22:30 --> CSRF token verified.
+CRITICAL - 2023-10-03 04:22:30 --> implode(): Argument #1 ($pieces) must be of type array, string given
+in APPPATH\Controllers\admin\User.php on line 131.
+ 1 APPPATH\Controllers\admin\User.php(131): implode(', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->proses_edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:22:44 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(106): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:22:48 --> CSRF token verified.
+INFO - 2023-10-03 04:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:24:46 --> CSRF token verified.
+CRITICAL - 2023-10-03 04:24:46 --> implode(): Argument #1 ($pieces) must be of type array, string given
+in APPPATH\Controllers\admin\User.php on line 71.
+ 1 APPPATH\Controllers\admin\User.php(71): implode(', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->proses_tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:26:15 --> CSRF token verified.
+INFO - 2023-10-03 04:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:26:56 --> CSRF token verified.
+INFO - 2023-10-03 04:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:30:43 --> CSRF token verified.
+INFO - 2023-10-03 04:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:31:11 --> CSRF token verified.
+INFO - 2023-10-03 04:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:34:09 --> CSRF token verified.
+INFO - 2023-10-03 04:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:34:19 --> CSRF token verified.
+INFO - 2023-10-03 04:34:44 --> CSRF token verified.
+INFO - 2023-10-03 04:34:49 --> CSRF token verified.
+INFO - 2023-10-03 04:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:35:17 --> CSRF token verified.
+INFO - 2023-10-03 04:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:38:13 --> CSRF token verified.
+ERROR - 2023-10-03 04:38:13 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\crm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\crm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\crm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\crm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\crm\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\crm\app\Controllers\admin\User.php(90): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\crm\system\CodeIgniter.php(932): App\Controllers\admin\User->proses_tambah()
+#10 C:\xampp\htdocs\crm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+#11 C:\xampp\htdocs\crm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\crm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\crm\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-10-03 04:38:13 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (:nama_user:, :username:, :password:, :panduan_khusus:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\admin\User.php(90): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->proses_tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:38:32 --> CSRF token verified.
+ERROR - 2023-10-03 04:38:32 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\crm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\crm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\crm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\crm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\crm\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\crm\app\Controllers\admin\User.php(90): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\crm\system\CodeIgniter.php(932): App\Controllers\admin\User->proses_tambah()
+#10 C:\xampp\htdocs\crm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+#11 C:\xampp\htdocs\crm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\crm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\crm\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-10-03 04:38:32 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (:nama_user:, :username:, :password:, :panduan_khusus:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\admin\User.php(90): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->proses_tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:38:55 --> CSRF token verified.
+INFO - 2023-10-03 04:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:39:38 --> CSRF token verified.
+ERROR - 2023-10-03 04:39:38 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\crm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\crm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\crm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\crm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\crm\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\crm\app\Controllers\admin\User.php(90): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\crm\system\CodeIgniter.php(932): App\Controllers\admin\User->proses_tambah()
+#10 C:\xampp\htdocs\crm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+#11 C:\xampp\htdocs\crm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\crm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\crm\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-10-03 04:39:38 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (:nama_user:, :username:, :password:, :panduan_khusus:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\admin\User.php(90): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->proses_tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:39:51 --> CSRF token verified.
+ERROR - 2023-10-03 04:39:51 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\crm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\crm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\crm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\crm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\crm\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\crm\app\Controllers\admin\User.php(90): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\crm\system\CodeIgniter.php(932): App\Controllers\admin\User->proses_tambah()
+#10 C:\xampp\htdocs\crm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+#11 C:\xampp\htdocs\crm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\crm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\crm\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-10-03 04:39:51 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (\'Nakam\', \'nakam\', \'nakam\', (\'cara membuat web menjadi lebih menarik? 1\',\'cara membuat web menjadi lebih menarik? 3\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_user` (`nama_user`, `username`, `password`, `panduan_khusus`) VALUES (:nama_user:, :username:, :password:, :panduan_khusus:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\admin\User.php(90): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->proses_tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:40:42 --> CSRF token verified.
+INFO - 2023-10-03 04:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:44:27 --> CSRF token verified.
+INFO - 2023-10-03 04:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:50:21 --> Attempt to read property "id_panduan" on null
+in APPPATH\Views\admin\panduan\edit.php on line 12.
+ 1 APPPATH\Views\admin\panduan\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_panduan" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\panduan\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\panduan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/panduan/edit', [], true)
+ 5 APPPATH\Controllers\admin\Panduan.php(92): view('admin/panduan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Panduan->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Panduan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:50:25 --> CSRF token verified.
+INFO - 2023-10-03 04:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:51:40 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(120): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:51:50 --> CSRF token verified.
+INFO - 2023-10-03 04:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:51:58 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(120): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:52:08 --> CSRF token verified.
+INFO - 2023-10-03 04:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 04:53:31 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(120): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 04:53:37 --> CSRF token verified.
+INFO - 2023-10-03 04:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 04:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 05:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 05:00:27 --> Attempt to read property "id_panduan" on array
+in APPPATH\Views\user\panduan\index.php on line 39.
+ 1 APPPATH\Views\user\panduan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_panduan" on array', 'C:\\xampp\\htdocs\\crm\\app\\Views\\user\\panduan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\user\\panduan\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/panduan/index', [], true)
+ 5 APPPATH\Controllers\user\Panduanctrl.php(30): view('user/panduan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Panduanctrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Panduanctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 05:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 05:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 05:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 05:15:28 --> Undefined variable $panduankhusus
+in APPPATH\Views\user\panduan\index.php on line 82.
+ 1 APPPATH\Views\user\panduan\index.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $panduankhusus', 'C:\\xampp\\htdocs\\crm\\app\\Views\\user\\panduan\\index.php', 82)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\user\\panduan\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/panduan/index', [], true)
+ 5 APPPATH\Controllers\user\Panduanctrl.php(34): view('user/panduan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Panduanctrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Panduanctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 05:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 05:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 05:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 05:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 05:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 05:19:03 --> CSRF token verified.
+INFO - 2023-10-03 05:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 05:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 05:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 06:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 06:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 06:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 06:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 06:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 06:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 06:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 06:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 06:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 06:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 06:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 07:24:09 --> Undefined variable $userId
+in APPPATH\Controllers\user\Panduanctrl.php on line 29.
+ 1 APPPATH\Controllers\user\Panduanctrl.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\xampp\\htdocs\\crm\\app\\Controllers\\user\\Panduanctrl.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Panduanctrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Panduanctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 07:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 07:29:46 --> Undefined variable $userId
+in APPPATH\Controllers\user\Panduanctrl.php on line 32.
+ 1 APPPATH\Controllers\user\Panduanctrl.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\xampp\\htdocs\\crm\\app\\Controllers\\user\\Panduanctrl.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Panduanctrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Panduanctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 07:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 07:55:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+in APPPATH\Models\PanduanModel.php on line 40.
+ 1 APPPATH\Controllers\user\Panduanctrl.php(29): App\Models\PanduanModel->getPanduanUserKhusus()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Panduanctrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Panduanctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 07:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 07:55:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+in APPPATH\Models\PanduanModel.php on line 40.
+ 1 APPPATH\Controllers\user\Panduanctrl.php(29): App\Models\PanduanModel->getPanduanUserKhusus()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Panduanctrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Panduanctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 07:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 07:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:01:34 --> CSRF token verified.
+INFO - 2023-10-03 08:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:16:08 --> CSRF token verified.
+INFO - 2023-10-03 08:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:16:44 --> CSRF token verified.
+INFO - 2023-10-03 08:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 08:20:55 --> Cannot use object of type stdClass as array
+in APPPATH\Views\user\panduan\index.php on line 73.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/panduan/index', [], true)
+ 4 APPPATH\Controllers\user\Panduanctrl.php(36): view('user/panduan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Panduanctrl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Panduanctrl))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 08:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 08:21:58 --> Cannot use object of type stdClass as array
+in APPPATH\Views\user\panduan\index.php on line 74.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/panduan/index', [], true)
+ 4 APPPATH\Controllers\user\Panduanctrl.php(36): view('user/panduan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Panduanctrl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Panduanctrl))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 08:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:23:29 --> CSRF token verified.
+INFO - 2023-10-03 08:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 08:26:19 --> Attempt to read property "id_panduan" on array
+in APPPATH\Views\user\panduan\index.php on line 73.
+ 1 APPPATH\Views\user\panduan\index.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_panduan" on array', 'C:\\xampp\\htdocs\\crm\\app\\Views\\user\\panduan\\index.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\user\\panduan\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/panduan/index', [], true)
+ 5 APPPATH\Controllers\user\Panduanctrl.php(36): view('user/panduan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Panduanctrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Panduanctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2023-10-03 08:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-03 08:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

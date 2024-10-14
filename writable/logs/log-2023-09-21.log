@@ -1,0 +1,317 @@
+INFO - 2023-09-21 02:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 02:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 02:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 02:59:18 --> CSRF token verified.
+INFO - 2023-09-21 02:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 02:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:30 --> CSRF token verified.
+INFO - 2023-09-21 03:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:04:02 --> Attempt to read property "id_artikel" on null
+in APPPATH\Views\admin\artikel\edit.php on line 12.
+ 1 APPPATH\Views\admin\artikel\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_artikel" on null', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\artikel\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\artikel\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/edit', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(116): view('admin/artikel/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:04:21 --> CSRF token verified.
+INFO - 2023-09-21 03:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:04:30 --> Attempt to read property "id_artikel" on null
+in APPPATH\Views\admin\artikel\edit.php on line 12.
+ 1 APPPATH\Views\admin\artikel\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_artikel" on null', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\artikel\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\artikel\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/edit', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(116): view('admin/artikel/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:42:23 --> CSRF token verified.
+INFO - 2023-09-21 03:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 03:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:42:29 --> Undefined variable $tentang_pengguna
+in APPPATH\Views\admin\tentang\edit.php on line 23.
+ 1 APPPATH\Views\admin\tentang\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tentang_pengguna', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(100): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:43:05 --> Undefined array key 0
+in APPPATH\Views\admin\tentang\edit.php on line 23.
+ 1 APPPATH\Views\admin\tentang\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:43:11 --> Undefined array key 0
+in APPPATH\Views\admin\tentang\edit.php on line 23.
+ 1 APPPATH\Views\admin\tentang\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:47:59 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 23.
+ 1 APPPATH\Views\admin\tentang\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:48:02 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 23.
+ 1 APPPATH\Views\admin\tentang\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:49:00 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 23.
+ 1 APPPATH\Views\admin\tentang\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:52:03 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 26.
+ 1 APPPATH\Views\admin\tentang\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:52:05 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 26.
+ 1 APPPATH\Views\admin\tentang\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:52:26 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 26.
+ 1 APPPATH\Views\admin\tentang\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:52:40 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 26.
+ 1 APPPATH\Views\admin\tentang\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:52:41 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 26.
+ 1 APPPATH\Views\admin\tentang\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:52:43 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 26.
+ 1 APPPATH\Views\admin\tentang\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:53:34 --> Undefined variable $tentang_pengguna
+in APPPATH\Controllers\admin\Tentang.php on line 100.
+ 1 APPPATH\Controllers\admin\Tentang.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tentang_pengguna', 'C:\\xampp\\htdocs\\yayat\\app\\Controllers\\admin\\Tentang.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 03:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 03:54:43 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 26.
+ 1 APPPATH\Views\admin\tentang\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 04:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 04:15:42 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 26.
+ 1 APPPATH\Views\admin\tentang\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 07:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:08:23 --> CSRF token verified.
+INFO - 2023-09-21 07:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 07:08:25 --> Attempt to read property "nama_tentang" on array
+in APPPATH\Views\admin\tentang\edit.php on line 23.
+ 1 APPPATH\Views\admin\tentang\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_tentang" on array', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 07:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 07:10:47 --> Undefined array key "nama_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 23.
+ 1 APPPATH\Views\admin\tentang\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
+INFO - 2023-09-21 07:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 07:11:08 --> Undefined array key "deskripsi_tentang"
+in APPPATH\Views\admin\tentang\edit.php on line 29.
+ 1 APPPATH\Views\admin\tentang\edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deskripsi_tentang"', 'C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\yayat\\app\\Views\\admin\\tentang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/tentang/edit', [], true)
+ 5 APPPATH\Controllers\admin\Tentang.php(101): view('admin/tentang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tentang->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tentang))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yayat\\public\\index.php')
