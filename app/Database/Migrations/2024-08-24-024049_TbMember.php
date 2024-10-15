@@ -24,88 +24,93 @@ class CreateTbMemberTable extends Migration
             'username' => [
                 'type'       => 'VARCHAR',
                 'constraint' => 255,
-                'null'       => false,
+            ],
+            'kode_referral' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+            ],
+            'popular_point' => [
+                'type'       => 'INT',
+                'constraint' => 11,
+                'default'    => 0,
             ],
             'password' => [
                 'type'       => 'VARCHAR',
                 'constraint' => 255,
-                'null'       => false,
-            ],
-            'nama_member' => [
-                'type'       => 'VARCHAR',
-                'constraint' => 50,
-                'null'       => false,
-            ],
-            'id_provinsi' => [
-                'type'       => 'INT',
-                'constraint' => 11,
-                'null'       => true,
             ],
             'id_kabkota' => [
                 'type'       => 'INT',
                 'constraint' => 11,
-                'null'       => true,
             ],
-            'status_kepengurusan' => [
-                'type'       => 'VARCHAR',
-                'constraint' => 100,
-                'null'       => true,
-            ],
-            'alamat_member' => [
-                'type'       => 'TEXT',
-                'null'       => true,
-            ],
-            'no_hp_member' => [
-                'type'       => 'VARCHAR',
-                'constraint' => 50,
-                'null'       => true,
-            ],
-            'email_member' => [
-                'type'       => 'VARCHAR',
-                'constraint' => 50,
-                'null'       => true,
-            ],
-            'ig_member' => [
-                'type'       => 'VARCHAR',
-                'constraint' => 50,
-                'null'       => true,
-            ],
-            'fb_member' => [
-                'type'       => 'VARCHAR',
-                'constraint' => 50,
-                'null'       => true,
-            ],
-            'pendidikan_member' => [
-                'type'       => 'TEXT',
-                'null'       => true,
-            ],
-            'pekerjaan_member' => [
-                'type'       => 'TEXT',
-                'null'       => true,
-            ],
-            'sertifikasi_member' => [
-                'type'       => 'TEXT',
-                'null'       => true,
-            ],
-            'jenis_kelamin' => [
-                'type'       => 'VARCHAR',
-                'constraint' => 30,
-                'null'       => true,
-            ],
-            'foto_member' => [
+            'nama_perusahaan' => [
                 'type'       => 'VARCHAR',
                 'constraint' => 255,
-                'null'       => true,
             ],
-            'cv_member' => [
+            'deskripsi_perusahaan' => [
+                'type' => 'TEXT',
+            ],
+            'tipe_bisnis' => [
                 'type'       => 'VARCHAR',
                 'constraint' => 255,
-                'null'       => true,
             ],
-            'slug' => [
+            'produk_utama' => [
                 'type'       => 'VARCHAR',
                 'constraint' => 255,
-                'null'       => true,
+            ],
+            'tahun_dibentuk' => [
+                'type' => 'YEAR',
+            ],
+            'skala_bisnis' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+            ],
+            'email_perusahaan' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+            ],
+            'pic' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+            ],
+            'pic_phone' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 15,
+            ],
+            'tanggal_verifikasi' => [
+                'type'    => 'DATETIME',
+            ],
+            'kategori_produk' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+            ],
+            'sertifikat' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+            ],
+            'foto_produk' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+            ],
+            'nama_produk' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+            ],
+            'deskripsi_produk' => [
+                'type'       => 'TEXT',
+            ],
+            'hs_code' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+            ],
+            'minimum_order_qty' => [
+                'type'       => 'INT',
+                'constraint' => 11,
+                'default'    => 1,
+            ],
+            'minimum_order_qty' => [
+                'type'       => 'INT',
+                'constraint' => 11,
+                'default'    => 1,
             ],
         ]);
 
